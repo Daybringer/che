@@ -8,34 +8,34 @@
  * SPDX-License-Identifier: EPL-2.0
  **********************************************************************/
 
-
 const TYPES = {
-    Driver: Symbol.for('Driver'),
-    CheLogin: Symbol.for('CheLogin'),
-    OcpLogin: Symbol.for('OcpLogin'),
-    WorkspaceUtil: Symbol.for('WorkspaceUtil'),
-    IAuthorizationHeaderHandler: Symbol.for('IAuthorizationHeaderHandler'),
-    ITokenHandler: Symbol.for('ITokenHandler')
+  Driver: Symbol.for('Driver'),
+  CheLogin: Symbol.for('CheLogin'),
+  OcpLogin: Symbol.for('OcpLogin'),
+  WorkspaceUtil: Symbol.for('WorkspaceUtil'),
+  IAuthorizationHeaderHandler: Symbol.for('IAuthorizationHeaderHandler'),
+  ITokenHandler: Symbol.for('ITokenHandler'),
 };
 
 const CLASSES = {
-    DriverHelper: 'DriverHelper',
-    Dashboard: 'Dashboard',
-    Workspaces: 'Workspaces',
-    WorkspaceDetails: 'WorkspaceDetails',
-    ScreenCatcher: 'ScreenCatcher',
-    OcpLoginPage: 'OcpLoginPage',
-    CheLoginPage: 'CheLoginPage',
-    CheApiRequestHandler: 'CheApiRequestHandler',
-    CreateWorkspace: 'CreateWorkspace',
-    BrowserTabsUtil: 'BrowserTabsUtil',
-    ProjectAndFileTests: 'ProjectAndFileTests',
-    Sanitizer: 'Sanitizer',
-    ApiUrlResolver: 'ApiUrlResolver',
-    LoginTests: 'LoginTests',
-    WorkspaceHandlingTests: 'WorkspaceHandlingTests',
-    RedHatLoginPage: 'RedHatLoginPage',
-    OcpRedHatLoginPage: 'OcpRedHatLoginPage',
+  DriverHelper: 'DriverHelper',
+  Dashboard: 'Dashboard',
+  Workspaces: 'Workspaces',
+  WorkspaceDetails: 'WorkspaceDetails',
+  ScreenCatcher: 'ScreenCatcher',
+  OcpLoginPage: 'OcpLoginPage',
+  OauthPage: 'OauthPage',
+  CheLoginPage: 'CheLoginPage',
+  CheApiRequestHandler: 'CheApiRequestHandler',
+  CreateWorkspace: 'CreateWorkspace',
+  BrowserTabsUtil: 'BrowserTabsUtil',
+  ProjectAndFileTests: 'ProjectAndFileTests',
+  Sanitizer: 'Sanitizer',
+  ApiUrlResolver: 'ApiUrlResolver',
+  LoginTests: 'LoginTests',
+  WorkspaceHandlingTests: 'WorkspaceHandlingTests',
+  RedHatLoginPage: 'RedHatLoginPage',
+  OcpRedHatLoginPage: 'OcpRedHatLoginPage',
 };
 
 export { TYPES, CLASSES };
